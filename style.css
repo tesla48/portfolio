@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.container-header .logo {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro, .details {
+    display: flex;
+    padding: 20px;
+}
+
+.intro-photo, .details-photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.intro-text, .details-text {
+    max-width: 600px;
+}
+
+.intro-text button, .details-text button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.skills-logos {
+    display: flex;
+    margin-top: 20px;
+}
+
+.skills-logos img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.achievement {
+    max-width: 200px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
